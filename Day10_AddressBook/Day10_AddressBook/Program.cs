@@ -1,14 +1,18 @@
 ﻿
-namespace Day10_AddressBook
-{
-    class Program
-    {
-        static void main(string[] args)
-        {
-            Contact contact = new Contact();
-            Console.WriteLine("Welcome to Adress Book");
-        }
+using Day10_AddressBook;
 
+namespace AdressBook
+{
+    class program
+    {
+
+
+        public static void Main(string[] args)
+        {
+            AddressBook address = new AddressBook();
+            address.AddNewContact();
+            Console.WriteLine();
+            address.Display();
+        }
     }
 }
-  
